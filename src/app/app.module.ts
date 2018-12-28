@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { VentanaEmergenteComponent } from './ventana-emergente/ventana-emergente.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    VentanaEmergenteComponent
   ],
   imports: [
     BrowserModule,
